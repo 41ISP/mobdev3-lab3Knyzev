@@ -5,6 +5,34 @@ body {
     color: #333;
     background-color: #f8f8f8;
 }
+.services-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.testimonials-section {
+    background-color: #f1f1f1;
+    padding: 40px;
+    text-align: center;
+}
+.form-input, .form-textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.footer-section {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.submit {
+    background-color: #ff9800;
+    color: white;
+}
 
 .header {
     background-color: #222;
@@ -14,76 +42,22 @@ body {
     align-items: center;
     padding: 20px;
 }
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.main-nav .nav-list {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.hero-section {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #444;
-    color: white;
-}
-
 .hero-title {
     font-size: 32px;
     margin-bottom: 10px;
 }
-
-.hero-text {
-    font-size: 20px;
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-}
-
-.primary {
-    background-color: #ff9800;
-    color: white;
-}
-
-.about-section {
-    padding: 40px;
-    text-align: center;
-    background-color: white;
-}
-
 .about-image {
     width: 80%;
     max-width: 600px;
     margin-top: 20px;
 }
-
-.services-section {
-    background-color: #e3e3e3;
+.portfolio-section {
     padding: 40px;
+    text-align: center;
 }
-
-.services-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
+.testimonial {
+    font-style: italic;
 }
-
 .service-item {
     background: white;
     padding: 15px;
@@ -91,50 +65,23 @@ body {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.portfolio-section {
-    padding: 40px;
-    text-align: center;
+.hero-text {
+    font-size: 20px;
 }
-
-.portfolio-grid {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
 .portfolio-item img {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
 }
-
-.testimonials-section {
-    background-color: #f1f1f1;
+.about-section {
     padding: 40px;
     text-align: center;
+    background-color: white;
 }
-
-.testimonial {
-    font-style: italic;
+.services-section {
+    background-color: #e3e3e3;
+    padding: 40px;
 }
-
-.testimonial-author {
-    font-weight: bold;
-}
-
-.footer-section {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.contact-info a {
-    color: #ff9800;
-    text-decoration: none;
-}
-
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -142,17 +89,45 @@ body {
     gap: 10px;
     margin-top: 20px;
 }
-
-.form-input, .form-textarea {
-    width: 80%;
-    max-width: 400px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #444;
+    color: white;
 }
-
-.submit {
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.testimonial-author {
+    font-weight: bold;
+}
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.primary {
     background-color: #ff9800;
     color: white;
 }
-
+.main-nav .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.contact-info a {
+    color: #ff9800;
+    text-decoration: none;
+}
